@@ -149,7 +149,7 @@ nav img {
         font-size: 0.48rem;
     }
     .search{
-        width:100%;
+        width:90%;
     }
     .google img {
         width:150px;
@@ -163,8 +163,7 @@ nav img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        font-size: 0.4rem;
+        font-size: 0.35rem;
     }
 }
 

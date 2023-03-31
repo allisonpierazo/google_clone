@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+nav li {
+    list-style: none;
+    padding-right: 10px;
+    font-size: 14px;    
+}
+nav img {
+    height: 25px;
+    margin-right: 10px;
+}
+.gmail,
+.images{
+    font-size: 13px;
+}
+.gmail:hover,
+.images:hover{
+    text-decoration: underline;
+}
+.apps{
+    padding-right: 0;
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.apps img{
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    border: 1px solid #dcdcdc;
+    background-color: #dcdcdc;
+    border-radius: 90px 90px;
+}
+.images{
+    margin-right: 10px;
+}
+.login{
+    background: #1a73e8;
+    padding: 10px;
+    margin-right: 8px;
+    border-color: #1a73e8;
+    border: solid 1px transparent;
+    color: #FFF;
+    width:130px;
+    border-radius: 7px 7px;
+}
+.login a{
+    color: #FFF;
+}
+.main{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 31vw;
+    height: 43px;
+    border: solid 1px #dcdcdc;
+    border-radius: 45px 45px;
+}
+.search:hover{
+    cursor: pointer;
+    border: 2px solid #dcdcdc;
+    box-shadow: 0px 0px 6px 1px #dcdcdc;
+}
+.search a{
+    text-decoration: none;
+}
+.buttons {
+    margin-top: 30px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius:4px;
+    height: 36px;
+    margin-right: 10px;
+}
+.buttons:hover{
+    border: 2px solid #dcdcdc;
+}
+.search img {
+    height: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.mic img,
+.lenz img{
+    height: 22px;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.country{
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #70757a;
+}
+.informations{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+.informations a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #70757a;
+}
+.informations a:hover {
+    text-decoration: underline;
+}
+
